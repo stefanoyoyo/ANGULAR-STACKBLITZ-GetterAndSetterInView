@@ -7,4 +7,11 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+  
+  numero = 0;
+  
+  this.setNumero(numero: number) {
+    this.numero = numero-1;
+  }
+  
 }
