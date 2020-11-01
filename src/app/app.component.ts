@@ -19,11 +19,11 @@ export class AppComponent  {
   export class Numero {
     private numero: number;
     constructor() {}
-    set numero(num) {
+    set setnumero(num) {
       this.numero = num;
     }
     
-    get numero() {
+    get getnumero() {
       return this.numero;
     }
     
