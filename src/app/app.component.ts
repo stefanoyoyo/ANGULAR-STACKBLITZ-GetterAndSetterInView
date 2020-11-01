@@ -14,5 +14,6 @@ export class AppComponent  {
     this.numero = numero-1;
     console.log('setNumero ' + this.numero)
   }
+  }
   
 }
