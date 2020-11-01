@@ -8,12 +8,30 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
   
-  numero = 0;
+  private numero = new numero();
+  numero.setNum(3);
   
-  setNumero(numero: number) {
-    this.numero = numero-1;
-    console.log('setNumero ' + this.numero)
+  
   }
+  
+  export class numero {
+    private numero: number;
+    constructor() {}
+    set numero(num) {
+      this.numero = num;
+    }
+    
+    get numero() {
+      return this.numero;
+    }
+    
+    setNum(num: number) {
+      this.numero = num;
+    }
+    
+    getNum() {
+      return this.numero;
+    }
   }
   
 
