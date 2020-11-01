@@ -10,7 +10,7 @@ export class AppComponent  {
   
   private numero = new Numero();
   costructor() {
-  numero.setNum(3);
+    this.numero.setNum(3);
   }
   
   
