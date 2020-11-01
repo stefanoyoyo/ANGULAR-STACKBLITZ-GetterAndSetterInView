@@ -9,7 +9,9 @@ export class AppComponent  {
   name = 'Angular ' + VERSION.major;
   
   private numero = new numero();
+  costructor() {
   numero.setNum(3);
+  }
   
   
   }
