@@ -10,7 +10,7 @@ export class AppComponent  {
   
   numero = 0;
   
-  this.setNumero(numero: number) {
+  setNumero(numero: number) {
     this.numero = numero-1;
     console.log('setNumero ' + this.numero)
   }
