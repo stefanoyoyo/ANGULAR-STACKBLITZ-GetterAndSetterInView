@@ -8,7 +8,7 @@ import { Component, VERSION } from '@angular/core';
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
   
-  private numero = new numero();
+  private numero = new Numero();
   costructor() {
   numero.setNum(3);
   }
@@ -16,7 +16,7 @@ export class AppComponent  {
   
   }
   
-  export class numero {
+  export class Numero {
     private numero: number;
     constructor() {}
     set numero(num) {
