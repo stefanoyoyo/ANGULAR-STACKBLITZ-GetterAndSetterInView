@@ -19,6 +19,7 @@ export class AppComponent  {
   export class Numero {
     private numero: number;
     constructor() {}
+    /*
     set setnumero(num) {
       this.numero = num;
     }
@@ -26,6 +27,7 @@ export class AppComponent  {
     get getnumero() {
       return this.numero;
     }
+    */
     
     setNum(num: number) {
       this.numero = num;
